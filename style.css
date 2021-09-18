@@ -113,7 +113,7 @@ body{
 
 .container{
     background-color: #151515;
-    height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px);
     color: white;
 }
 
@@ -123,4 +123,41 @@ body{
 
 .featured-content{
     height: 50vh;
+    padding: 50px;
+}
+
+.featured-title{
+    width: 300px;
+}
+
+.featured-desc{
+    width: 500px;
+    color: lightgray;
+    margin: 30px 0;
+}
+
+.featured-button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.movie-list-container{
+    padding: 20px;
+}
+
+.movie-list{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.movie-list-item-img{
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
 }
