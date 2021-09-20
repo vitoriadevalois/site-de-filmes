@@ -179,6 +179,7 @@ body{
 
 .movie-list-item-img{
     transition: all 1s ease-in-out;
+    border-radius: 10%;
     width: 270px;
     height: 200px;
     object-fit: cover;
