@@ -182,8 +182,8 @@ body{
 
 .movie-list-item-img{
     transition: all 1s ease-in-out;
-    width: 270px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     object-fit: cover;
     border-radius: 20px;
 }

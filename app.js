@@ -15,3 +15,4 @@ arrows.forEach((arrow, i) => {
       clickCounter = 0;
     }
   });
+});
