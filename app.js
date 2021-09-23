@@ -1,8 +1,10 @@
 const arrows = document.querySelectorAll(".arrow");
-const movielists = document.querySelectorAll(".movie-list");
+const movieLists = document.querySelectorAll(".movie-list");
 
 arrows.forEach((arrow, index)=>{
     arrow.addEventListener("click",()=>{
-        movielists[index].style.transform = "translateX(-100px)"
-    })
-})
+        movieLists[index].style.transform = `translateX(${
+            movieLists[index].computedStyleMap().get("transform")[0].x.value
+        -270}px)`;
+    });
+});
