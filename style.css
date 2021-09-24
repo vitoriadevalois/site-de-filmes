@@ -40,6 +40,7 @@ body{
 .menu-list{
     display: flex;
     list-style: none;
+    cursor: pointer;
 }
 
 .menu-list-item{
@@ -55,6 +56,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
 .profile-text-container{
@@ -87,6 +89,7 @@ body{
     right: 1px;
     border-radius: 50%;
     cursor: pointer;
+    transition: 0.5s ease all;
 }
 
 .toggle-icon{
@@ -109,6 +112,7 @@ body{
     color: white;
     font-size: 20px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .container{
@@ -144,6 +148,7 @@ body{
     border: none;
     outline: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .movie-list-container{
@@ -164,7 +169,7 @@ body{
 }
 
 .movie-list-item{
-    margin-right: 30px;
+    margin-right: 5px;
     position: relative;
 }
 
@@ -182,8 +187,8 @@ body{
 
 .movie-list-item-img{
     transition: all 1s ease-in-out;
-    width: 250px;
-    height: 150px;
+    width: 300px; /*mudar tamanho dos blocos de filmes*/
+    height: 188px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -235,4 +240,40 @@ body{
     color: lightgrey;
     opacity: 0.5;
     cursor: pointer;
+}
+
+.container.active{
+    background-color: white;
+}
+
+.movie-list-title.active{
+    color: black;
+}
+
+.navbar-container.active{
+    background-color: white;
+    color: black
+}
+
+.sidebar.active{
+    background-color: white;
+}
+
+.left-menu-icon.active{
+    color: black
+}
+
+.toggle.active{
+    background-color: black;
+}
+
+.toggle-ball.active{
+    background-color: white;
+    transform: translateX(-20px);
+}
+
+@media only screen and (max-width: 940px){
+    .menu-container{
+        display: none;
+    }
 }
