@@ -187,8 +187,8 @@ body{
 
 .movie-list-item-img{
     transition: all 1s ease-in-out;
-    width: 300px; /*mudar tamanho dos blocos de filmes*/
-    height: 188px;
+    width: 350px; /*mudar tamanho dos blocos de filmes*/
+    height: 200px;
     object-fit: cover;
     border-radius: 20px;
 }
