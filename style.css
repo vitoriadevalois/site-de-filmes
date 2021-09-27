@@ -137,7 +137,7 @@ body{
 .featured-desc{
     width: 500px;
     color: lightgray;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .featured-button{
@@ -196,7 +196,7 @@ body{
 .movie-list-item-title{
     background-color: #333;
     padding: 0 10px;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     position: absolute;
     top: 10%;
