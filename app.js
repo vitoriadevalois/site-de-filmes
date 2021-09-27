@@ -7,9 +7,9 @@ arrows.forEach((arrow, i) => {
   arrow.addEventListener("click", () => {
     const ratio = Math.floor(window.innerWidth / 270);
     clickCounter++;
-    if (itemNumber - (4 + clickCounter) + (4 - ratio) >= 0) {
+    if (itemNumber - (4 + clickCounter) + (3 - ratio) >= 0) {
       movieLists[i].style.transform = `translateX(${
-        movieLists[i].computedStyleMap().get("transform")[0].x.value - 620 /*mudar para 300 em algumas ocasiões*/
+        movieLists[i].computedStyleMap().get("transform")[0].x.value - 680 /*300 original*/
       }px)`;
     } else {
       movieLists[i].style.transform = "translateX(0)";
