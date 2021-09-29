@@ -109,10 +109,17 @@ body{
 }
 
 .left-menu-icon{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     margin-bottom: 40px;
     cursor: pointer;
+}
+
+.left-menu-icon:hover,
+.left-menu-icon.active {
+    background-color: #374151;
+    color: white;
+    border-radius: 30%; /*como aumentar a caixa?*/
 }
 
 .container{
