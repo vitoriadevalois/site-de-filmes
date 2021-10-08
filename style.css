@@ -44,7 +44,8 @@ body{
 }
 
 .menu-list-item{
-    margin-right: 30px;
+    margin-right: 10px;
+    padding: 5px;
 }
 
 .menu-list-item.active{
@@ -55,7 +56,7 @@ body{
 .menu-list-item.active {
     background-color: #374151;
     color: white;
-    border-radius: 30%; /*como aumentar a caixa?*/
+    border-radius: 40%; /*como aumentar a caixa?*/
 }
 
 .profile-container{
@@ -100,7 +101,7 @@ body{
 }
 
 .toggle-icon{
-    color: goldenrod
+    color: goldenrod;
 }
 
 .sidebar{
