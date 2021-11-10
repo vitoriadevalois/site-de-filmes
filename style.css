@@ -52,12 +52,12 @@ body{
     font-weight: bold;
 }
 
-.menu-list-item:hover,
+/*.menu-list-item:hover,
 .menu-list-item.active {
     background-color: #374151;
     color: white;
-    border-radius: 40%; /*como aumentar a caixa?*/
-}
+    border-radius: 40%; /*como aumentar a caixa?
+}*/
 
 .profile-container{
     flex: 2;
@@ -123,12 +123,13 @@ body{
     cursor: pointer;
 }
 
-.left-menu-icon:hover,
+/*.left-menu-icon:hover,
 .left-menu-icon.active {
     background-color: #374151;
     color: white;
-    border-radius: 30%; /*como aumentar a caixa?*/
+    border-radius: 30%; como aumentar a caixa?
 }
+*/
 
 .container{
     background-color: #151515;
